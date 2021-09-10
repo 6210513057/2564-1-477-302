@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Firstname</label>
+            <input type=text name="firstname" id="firstname" required>
+            <br>
+        </div>
+        <div>
+            <br>
+            <label>Lastname</label>
+            <input type=text name="lastname" id="lastname" required>
+        </div>
+        <br>
+        <br>
+        <button>Ok</button>
+        <button type="button" onclick="close_dialog()">close</button>
+    </form>
+    <form>
+        <input type="button" value="Submit" onclick="dialog()"> 
+        <dialog id="dialog">ระบบได้รับข้อมูลของท่านแล้ว
+        <br><br>
+            <button>ตกลง</button>
+        </dialog>
+        <script> function dialog() {
+    var x=document.getElementById("dialog");
+    x.open=true
+    } </script>
+    </form>
+    <p align="center">
+        <div id="mapholder" class="map"></div>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoKoNVKdXRrp8YDgara5W1m2nfTU1dG5g&callback=initMap"
+        type="text/javascript"></script>
+        <scipt src="map.html"></scipt>
+    </p>
+</body>
+</html>
