@@ -11,14 +11,14 @@ h1 {
     font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 48px; margin: 0px;
-    color: rgb(38, 28, 128);
+    color: rgb(0, 60, 255);
     font-style: bold;
 }
 
 header h2 {
     font-family: 'Mali', cursive;
     font-size: 18px; margin: 0px; 
-    color: rgb(151, 8, 8);
+    color: rgb(233, 13, 13);
     font-style: normal;
 }
 
@@ -31,17 +31,16 @@ dialog {
 }
 
 div[class="index"]{
-    background-color: rgb(166, 179, 210) ;
+    background-color: rgb(212, 202, 175) ;
     width: 550px;
     padding: 25px;
-    border: 5px solid navy;
+    border: 5px solid rgb(0, 0, 0);
     margin: 10px auto ;
 }
 
 footer p {
     list-style: none; padding: 0px; display: ;
-    clear: center ; background-color: rgb(26, 12, 104);
-    padding-left: ; height: 25px;
+    clear: center ; padding-left: ; height: 25px;
 } 
 
 /* }
